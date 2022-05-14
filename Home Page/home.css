@@ -1,0 +1,127 @@
+html {
+    scroll-behavior: smooth;
+  }
+body{
+    background-color: #06113C;
+}
+header{
+    margin-top: -3.125rem;
+}
+.headerHome{
+    background-image: url(./elipse1.png);
+    background-repeat: no-repeat;
+    background-size: 16.8750rem 12.5rem;
+    background-position: 1.25rem 0;
+    
+}
+.logo-title{
+    color: #EEEEEE;
+    font-size: 4.063rem;
+    font-family: 'Georama', sans-serif;
+    font-weight: 500;
+    text-align: center;
+    width: 100%;
+    height: 18.125rem;
+    z-index: 3
+}
+
+
+.footer{
+    display: flex;
+    flex-direction: row;
+    color: #EEEEEE;
+    font-family: 'Georama', sans-serif; 
+    text-align: center;
+}
+
+footer a{
+  color: #FF8C32;
+  text-decoration: none;   
+  font-family: 'Georama', sans-serif; 
+}
+
+
+#image{
+    position: relative; 
+    top: 4.375rem;
+    left: 60.938rem;
+}
+
+img{
+    width: 20rem;
+}
+#text{
+    position: absolute;
+    bottom: -21.875rem;
+    left: 22rem;
+    font-size: large;
+    font-weight: 600;
+    text-align: center;
+}
+
+
+.info{
+    position: relative; 
+    top: -10.938rem; 
+    font-family: 'Georama', sans-serif;
+    color: #EEEEEE; 
+    display: inline-flex;
+    align-items: center;
+}
+
+  #bookicon{
+    position: absolute; 
+    top: -5.625rem; 
+    left: 35.938rem; 
+    margin-left: 0.1rem;
+    background-image: url(./cards.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 41.125rem;
+    height: 33.188rem;
+    z-index: 1; 
+  }
+  
+
+
+  .paragraphs{
+    display: flex;
+    flex-direction: column;
+    margin-left: 5rem;
+    z-index: 2;
+  }
+  #ttl{
+    font-family: 'Georama', sans-serif;
+    color: #EEEEEE; 
+    font-size: 1.875rem;
+    display: inline-flex;
+    align-items: center;
+    text-align: left;
+  }
+  
+  .image1{
+    display: flex;
+    flex-direction: row;
+  }
+  
+  .lorem{
+    font-family: 'Georama', sans-serif;
+    color: #EEEEEE; 
+    font-size: 1.563rem;
+    width: 35.938rem;
+  }
+
+button{
+position: absolute;
+width: 21.5rem;
+height: 6.375rem;
+left: 31.25rem;
+top: 40.625rem;
+background: #FF8C32;
+border-radius: 0.938rem;
+font-family: 'Georama', sans-serif;
+color: #EEEEEE; 
+font-size: 1.563rem;
+font-weight: bold;
+
+}

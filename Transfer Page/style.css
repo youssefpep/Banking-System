@@ -1,0 +1,124 @@
+body{
+    background-color: #06113C;
+}
+.nav-bar{
+    display: inline-flex;
+    align-items: center;
+}
+
+.logo-title{
+    color: #EEEEEE;
+    font-size: 1.5rem;
+    font-family: 'Georama', sans-serif;
+    font-weight:650;
+    margin: 1.875rem;
+    margin-left: 7.5rem;
+    margin-right: 43rem;
+}
+
+.links a{
+    margin: 0 1rem;
+    color: #FF8C32;
+    text-decoration: none;   
+    font-family: 'Georama', sans-serif;   
+}
+
+a:hover{
+    color: #EEEEEE; 
+}
+
+
+
+.footer{
+    color: #EEEEEE;
+    text-align: center;
+    font-family: 'Georama', sans-serif; 
+    margin-top: 5rem;  
+
+}
+
+footer a{
+    color: #FF8C32;
+    text-decoration: none;   
+    font-family: 'Georama', sans-serif; 
+  }
+#pic{
+    display: flex;
+    align-items: center;
+}
+
+.card{
+    background-image: url(./card1.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-top: 1.25rem;
+}
+
+img{
+    margin-left: 35.938rem;
+
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto;
+    align-content: center;
+    justify-content: center;
+    column-gap: 21.875rem;
+    row-gap: 1.563rem;
+    padding: 0.625rem;
+    z-index: 2;
+    margin-top: 3rem;
+  }
+  
+  .grid-container > div {
+    background-color: rgba(255, 255, 255, 0.8);
+    text-align: center;
+    line-height: 0;
+    padding: 1.25rem 0;
+    font-size: 1.875rem;
+    font-family: 'Georama', sans-serif; 
+    font-size: 1rem;
+    font-weight: 800;
+    height: 0.125rem; 
+    width: 18.75rem;
+    margin-left: 1rem;
+    border-radius: 0.75rem;
+  }
+
+  form{
+      margin-left: 33rem;
+      margin-top: 1.875rem;
+      background-color: rgba(255, 255, 255, 0.8);
+      height: 2.188rem; 
+      width: 18.75rem;
+      border-radius: 0.75rem;
+      align-items: center;
+      font-family: 'Georama', sans-serif; 
+      text-align: center;
+      line-height: 1.2;
+  }
+
+  input{
+    background-color: #FF8C32;
+    margin-top: 0.438rem;
+    font-family: 'Georama', sans-serif;
+    border-radius: 0.75rem;
+    text-align: center;
+    width: 10rem;
+  }
+
+  #save{
+    position: absolute;
+    width: 10rem;
+    height: 2.5rem;
+    left: 37.5rem;
+    top: 39.375rem;
+    background: #FF8C32;
+    border-radius: 0.438rem;
+    font-family: 'Georama', sans-serif;
+    color: #EEEEEE; 
+    font-size: 0.938rem;
+    
+    }
+  
